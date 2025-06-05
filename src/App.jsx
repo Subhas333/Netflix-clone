@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Homepage } from "./pages/Homepage";
+import  Homepage from "./pages/Homepage";
 
 function App() {
   return (
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

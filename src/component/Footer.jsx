@@ -3,8 +3,8 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className=' container mx-auto max-w-6xl lg:py-20 md:py-20 py-10 px-5'>
-      <p className= 'text-gray-300 mb-5'>Questions? Call <span className=' underline'>000-800-919-1694</span></p>
-      <div className="text-gray-300 flex flex-wrap justify-between mb-4 cursor-pointer">
+      <p className= 'text-gray-400 mb-5'>Questions? Contact us.</p>
+      <div className="text-gray-400 text-sm flex flex-wrap justify-between mb-4 cursor-pointer">
         <div className="1">
           <ul className='underline'>
             <li className='mb-3'>FAQ</li>
@@ -45,10 +45,9 @@ export default function Footer() {
           className=' bg-transparent outline-none'
         >
           <option value="English">English</option>
-          <option value="हिन्दी">हिन्दी</option>
         </select>
       </div>
-      <p className='text-gray-300'>Netflix India</p>
+      <p className='text-gray-300'>Netflix Nepal</p>
     </div>
   )
 }

@@ -11,6 +11,7 @@ export default function HeroSection () {
       }}
     >
       <Navbar />
+      <footer/>
       <div className=" container mx-auto flex justify-center items-center h-96">
         <div className=" mt-52 ">
           <h1 className=" text-white text-center lg:text-6xl md:text-5xl text-3xl px-5  font-bold lg:px-20  mb-4 m-24">
