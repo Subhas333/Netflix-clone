@@ -11,7 +11,6 @@ export default function HeroSection () {
       }}
     >
       <Navbar />
-      <footer/>
       <div className=" container mx-auto flex justify-center items-center h-96">
         <div className=" mt-52 ">
           <h1 className=" text-white text-center lg:text-6xl md:text-5xl text-3xl px-5  font-bold lg:px-20  mb-4 m-24">
@@ -33,7 +32,7 @@ export default function HeroSection () {
               className=" bg-[#1d1e1e] text-white text-lg py-3 px-3 w-80 lg:w-96 rounded-md opacity-80 border border-gray-300 hover:ring-1 hover:ring-gray-50   outline-none mb-5 md:mb-0 lg:mb-0"
               placeholder="Email address"
             />
-            <button className="bg-[#e50815] flex items-center gap-2 py-3 px-5 rounded-lg">
+            <button className="bg-[#e50815] flex items-center gap-2 py-3 px-5 rounded-lg hover:bg-red-800">
               <p className="text-white font-bold text-xl">Get Started</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

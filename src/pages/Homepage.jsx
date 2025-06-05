@@ -1,10 +1,8 @@
 import CreateProfiles from "../component/Profiles"
-import Download from "../component/Download"
-import Enjoy from "../component/Enjoy"
+import Enjoy from "../component/Trendiing"
 import Faq from "../component/Faq"
 import Footer from "../component/Footer"
 import HeroSection from "../component/HeroSection"
-import Watch from "../component/Watch"
 import { faqData } from "../data/faqData"
 
 
@@ -13,10 +11,7 @@ export default function Homepage() {
     <div>
       <HeroSection />
       <Enjoy />
-      <Download />
-      <Watch />
       <CreateProfiles />
-
       <div>
         <h2 className='text-white text-center lg:text-5xl md:text-5xl text-3xl font-bold  py-10'>Frequently Asked <br className=' lg:hidden md:hidden' /> Questions</h2>
         <div className='mb-10'>

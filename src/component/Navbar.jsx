@@ -1,22 +1,23 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
-   <div className="main flex lg:justify-around md:justify-around justify-between py-5 px-5 items-center">
-    <div className="left">
+    <div className="w-full text-white py-4 px-4 flex items-center justify-between md:px-8 lg:px-16">
       <div className="netflixlogo">
-        <img className="w-32 lg:w-44 " src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="logo" srcset="" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+          alt="Netflix Logo"
+          className="h-6 sm:h-8 md:h-10 lg:h-12 w-auto"
+        />
+      </div>
+      <div className="flex items-center space-x-3 sm:space-x-4">
+        <Link to="/signin">
+          <button className="bg-[#e50815] hover:bg-red-700 transition px-4 sm:px-5 py-1.5 sm:py-2 text-sm sm:text-base rounded-md font-semibold">
+            Sign In
+          </button>
+        </Link>
       </div>
     </div>
-    <div className="right flex items-center ">
-      <div className="selector cursor-pointer bg-[#111112] text-white mx-4 lg:px-5 md:px-5 px-3 rounded-md border-[1.5px] border-gray-200 hover:ring-gray-200 opacity-75" >
-        <select name='' id='' className='bg-transparent outline-none'>
-          <option value="English">English</option>
-          <option value="Nepali">Nepali</option> 
-        </select>
-      </div>
-      <button className="signup bg-[#e50815] text-white px-5 py-1.5 rounded-lg font-bold hover:bg-inherit">Sign In</button>
-    </div>
-   </div>
-  )
-}
+  );
+};
